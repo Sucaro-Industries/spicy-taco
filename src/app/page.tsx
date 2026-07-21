@@ -7,9 +7,7 @@ export default function Home() {
       <Header />
       <main className="flex-1 w-full max-w-3xl flex-col items-center justify-center pt-24 px-16 bg-white dark:bg-black sm:items-start">
         <div className="text-center sm:text-left mb-8">
-          <h1 className="text-4xl font-bold text-zinc-900 dark:text-white mb-4">
-            Controla tus gastos de forma inteligente
-          </h1>
+          <Header title="Controla tus gastos de forma inteligente" />
           <p className="text-lg text-zinc-600 dark:text-zinc-400">
             Gestiona, organiza y optimiza tus gastos personales y empresariales con nuestra aplicación.
           </p>
